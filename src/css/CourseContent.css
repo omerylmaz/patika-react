@@ -1,0 +1,18 @@
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #e9ecef;
+    color: #000;
+  }
+  
+  .accordion-button::after {
+    transform: rotate(-90deg);
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg);
+  }
+  

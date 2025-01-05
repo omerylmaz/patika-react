@@ -1,0 +1,12 @@
+.list-group-item-unread {
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+  }
+  
+
+  
+  .list-group-item-read {
+  background-color: #e9ecef;
+  color: #3b3b3b;
+  border-color: #ced4da;
+}

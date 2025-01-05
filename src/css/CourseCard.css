@@ -1,0 +1,25 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    height: 100%;
+  }
+  
+  .btn {
+    align-self: center;
+  }
+  
+  .card-hovered:hover {
+    transform: scale(1.05);
+  }
+  

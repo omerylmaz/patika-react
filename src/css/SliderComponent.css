@@ -1,0 +1,51 @@
+.slider-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .card-slider {
+    height: auto;
+    max-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-hovered:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-bottom: 3px solid #007bff;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+  
+  .text-success {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .carousel-item {
+    padding: 10px;
+  }
+  
